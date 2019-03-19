@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Detur.Cms.Business
+namespace Detur.Cms.DataAccess.Abstract
 {
-    public class Class1
+    public interface IProductDal
     {
     }
 }
