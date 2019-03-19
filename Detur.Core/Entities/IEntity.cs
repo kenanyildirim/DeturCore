@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Detur.Cms.Entities
+namespace Detur.Core.Entities
 {
-    public class Class1
+    public interface IEntity
     {
     }
 }
