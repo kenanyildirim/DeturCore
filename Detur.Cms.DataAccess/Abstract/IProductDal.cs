@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Detur.Cms.Entities.Concrete;
+using Detur.Core.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Detur.Cms.DataAccess.Abstract
 {
-    public interface IProductDal
+    public interface IProductDal:IEntityRepository<Product>
     {
     }
 }
